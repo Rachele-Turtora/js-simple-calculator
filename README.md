@@ -21,6 +21,12 @@ aggiungere event listener a tutti gli operatori: quando si clicca su un operator
 
 MILESTONE 3
 aggiungere event listener al pulsante "=": quando si clicca su =, salvare il secondo operando, effetuare il calcolo corretto in base all'operatore selezionato e visualizzare il risultato in alto
+- prendo = tramite id
+- aggiungo event listener per =
+    - salvo il secondo numero
+    - faccio il calcolo richiamando una funzione 
+- dichiaro funzione per fare il calcolo in cui metto i diversi casi a seconda dell'operatore
+
 
 MILESTONE 4
 pulsante canc: cliccando il pulsante si resetta il calcolo

@@ -11,6 +11,13 @@ Aggiungere event listener a tutti i numeri (0-9): quando si clicca su un numero,
 
 MILESTONE 2
 aggiungere event listener a tutti gli operatori: quando si clicca su un operatore, salvare l'operatore cliccato e il primo operando, quindi resettare il numero in alto
+- prendo tutti gli operatori tramite una classe
+- ciclo tutti gli operatori
+    - aggiungo event listener per l'operatore 
+- dichiaro una funzione per l'operatore
+    - prendo il valore dell'operatore (quale operatore è) e lo metto in una variabile
+    - prendo il risultato e lo metto in una variabile
+    - resetto il risultato
 
 MILESTONE 3
 aggiungere event listener al pulsante "=": quando si clicca su =, salvare il secondo operando, effetuare il calcolo corretto in base all'operatore selezionato e visualizzare il risultato in alto

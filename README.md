@@ -30,6 +30,9 @@ aggiungere event listener al pulsante "=": quando si clicca su =, salvare il sec
 
 MILESTONE 4
 pulsante canc: cliccando il pulsante si resetta il calcolo
+- prendo C tramite id
+- aggiumgo add event listener per C
+- resetto tutte le variabili
 
 BONUS
 verificare che non si stia cercando di dividere per 0

@@ -54,12 +54,24 @@ equal.addEventListener("click", function(){
 function operation(){
     switch (operator){
         case "+":
-            return num1 + num2
+            return num1 + num2;
         case "-":
-            return num1 - num2
+            return num1 - num2;
         case "x":
-            return num1 * num2
+            return num1 * num2;
         case "/":
-            return num1 / num2
+            return num1 / num2;
    }
+}
+
+const reset = document.getElementById("reset");
+
+// Resetting all parameters
+reset.addEventListener("click", resetElements)
+
+function resetElements(){
+    num1 = "";
+    num2 = "";
+    operator = "";
+    display.innerText = 0;
 }

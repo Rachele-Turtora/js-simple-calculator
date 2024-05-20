@@ -12,19 +12,14 @@ const buttons = document.querySelector(".buttons");
 buttons.addEventListener("click", function(event){
     const buttonValue = event.target;
 
-    switch (true){
-        case buttonValue.classList.contains("number"):
-            selectNumber(buttonValue.innerText);
-            break;
-        case buttonValue.classList.contains("operator"):
-            selectOperator(buttonValue);
-            break;
-        case buttonValue.id === "equal":
-            equal();
-            break;
-        default:
-            resetElements();
-            break;
+    if (buttonValue.classList.contains("number")){
+        selectNumber(buttonValue.innerText);
+    } else if (buttonValue.classList.contains("operator")){
+        selectOperator(buttonValue);
+    } else if (buttonValue.id === "equal"){
+        equal();
+    } else {
+        resetElements();
     }
 })
 

@@ -1,20 +1,27 @@
-L'utente inserisce le cifre del primo numero, dopo dovrà cliccare sull'operazione, poi inserirà le cifre del secondo numero e infine dovrà cliccare sul tasto = per vedere il risultato. Non si può applicare più di un'operazione alla volta.
+## Calcolatrice JavaScript
 
-MILESTONE 1
-Aggiungere event listener a tutti i numeri (0-9): quando si clicca su un numero, concatenarlo al numero visualizzato in alto
+Una calcolatrice semplice sviluppata con HTML, CSS e JavaScript.
+Permette all’utente di inserire due numeri e selezionare un’operazione matematica per calcolare il risultato.
 
+### 🎯 Funzionalità principali
 
-MILESTONE 2
-aggiungere event listener a tutti gli operatori: quando si clicca su un operatore, salvare l'operatore cliccato e il primo operando, quindi resettare il numero in alto
+Inserimento dei numeri tramite i pulsanti (0-9)
 
+Selezione di un’operatore (+, -, *, /)
 
-MILESTONE 3
-aggiungere event listener al pulsante "=": quando si clicca su =, salvare il secondo operando, effetuare il calcolo corretto in base all'operatore selezionato e visualizzare il risultato in alto
+Calcolo del risultato premendo il pulsante =
 
+Reset dei valori con il pulsante C
 
-MILESTONE 4
-pulsante canc: cliccando il pulsante si resetta il calcolo
+Gestione della divisione per 0 (mostra "Errore")
 
+⚠️ Nota: non si possono concatenare più operazioni contemporaneamente.
 
-BONUS
-verificare che non si stia cercando di dividere per 0
+  
+### 🛠 Tecnologie utilizzate
+
+HTML5 – Struttura della calcolatrice
+
+CSS3 – Stile e layout
+
+JavaScript (vanilla) – Logica dei calcoli e gestione eventi
